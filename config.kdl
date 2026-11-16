@@ -669,3 +669,9 @@ cursor {
 environment {
     XCURSOR_SIZE "8"
 }
+
+}
+
+window-rule {
+    open-maximized false
+}
