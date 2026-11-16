@@ -675,3 +675,9 @@ environment {
 window-rule {
     open-maximized false
 }
+
+
+window-rule {
+    geometry-corner-radius 1  
+    clip-to-geometry true
+}
