@@ -662,14 +662,14 @@ binds {
     Mod+Shift+P { power-off-monitors; }
 }
 
-cursor {
-    xcursor-theme "Adwaita"
-    xcursor-size 16
-}
+//cursor {
+//    xcursor-theme "Adwaita"
+//    xcursor-size 16
+//}
 
-environment {
-    XCURSOR_SIZE "8"
-}
+//environment {
+//    XCURSOR_SIZE "8"
+//}
 
 window-rule {
     open-maximized false
