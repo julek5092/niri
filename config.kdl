@@ -7,13 +7,13 @@ prefer-no-csd
 
 spawn-at-startup "swaybg" "-i" "/home/julek/Documents/snow.png" "-m" "fill"
 
-
+spawn-at-startup "waybar &"
 
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Input
 input {
-	 focus-follows-mouse
+       focus-follows-mouse
     keyboard {
         xkb {
             // You can set rules, model, layout, variant and options.
@@ -29,7 +29,7 @@ input {
         }
 
         // Enable numlock on startup, omitting this setting disables it.
-        numlock
+//        numlock
     }
 
     // Next sections include libinput settings.
@@ -223,7 +223,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+         on
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -671,14 +671,12 @@ environment {
     XCURSOR_SIZE "8"
 }
 
-}
-
 window-rule {
     open-maximized false
 }
 
 
 window-rule {
-    geometry-corner-radius 1  
+    geometry-corner-radius 0
     clip-to-geometry true
 }
